@@ -1,0 +1,108 @@
+
+body {
+  background: #3b3b3b;
+  color: #eeeeee;
+}
+
+/* GENERAL */
+.button-fred {
+  font-size: 18px;
+  color: #eee;
+  background: #2e2e2e;
+  border: 2px solid #eee;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 5px;
+  user-select: none;
+}
+.button-fred:hover {
+  color: #363636;
+  background: #eee;
+}
+
+/* NAV */
+#containerApp {
+  background: #2e2e2e;
+  margin-bottom: 35px;
+}
+.nav-app {
+  padding: 20px 0;
+}
+.title-app {
+  color: #eeeeee;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+/* INSTRUCCIONES */
+.instrucciones__title {
+  margin-bottom: 24px;
+}
+
+/* GAME */
+.level {
+  /* text-align: center; */
+  margin-bottom: 24px;
+}
+
+.emoji {
+  font-size: 2rem;
+}
+.tile {
+  width: 165px;
+  height: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+  border: 2px solid #eeeeee;
+  border-radius: 10px;
+  /* border-radius: 50%; */
+  cursor: pointer;
+}
+.tile:hover {
+  border: 2px solid #eeeeee;
+  background: rgba(238, 238, 238, 0.5);
+  margin: 6px;
+  /* height: 90px;
+  width: 90px; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tile:active {
+  border: 2px solid #eeeeee;
+  background: #eeeeee;
+  margin: 6px;
+  /* height: 90px;
+  width: 90px; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tile-color {
+  background: #eeeeee;
+  margin: 6px;
+  height: 165px;
+  width: 165px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.titleText {
+  display: none;
+}
+
+@media only screen and (min-width: 767px) {
+  .title-app {
+    /* margin: 20px 0; */
+    font-size: 36px;
+    border: 1px solid red;
+  }
+
+  .titleText {
+    display: flex;
+  }
+}
